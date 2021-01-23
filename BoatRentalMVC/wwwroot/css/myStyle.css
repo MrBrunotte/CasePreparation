@@ -1,0 +1,53 @@
+﻿body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+    a:hover,
+    .viewBtn:hover {
+        color: black;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+.centerText {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.textUpper {
+    text-transform: uppercase;
+}
+.textCapitlization {
+    text-transform: capitalize;
+}
+
+.btn {
+    padding: .5rem;
+}
+
+.myBtn {
+    text-decoration: none !important;
+}
+
+.myBtn {
+    text-decoration: none !important;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: gray;
+    width: 140px;
+}
+
+    .myBtn:hover {
+        color: black;
+    }
